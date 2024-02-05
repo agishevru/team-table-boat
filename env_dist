@@ -1,0 +1,17 @@
+# Переименовать данный файл в .env и установить необходимые переменные
+
+# секретный токен телеграм бота
+BOT_TOKEN =
+
+# Путь к Json ключу от гугл апи
+GOOGLE_CREDENTIALS_FILE_PATH =
+
+# Расположение базы данных sqlite
+DB_URL=sqlite+aiosqlite:///bot.db
+
+
+# FSM хранилище - указать True, если нужен Redis, и он установлен
+FSM_MEMORY_REDIS=False
+
+
+
